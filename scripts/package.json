@@ -1,0 +1,8 @@
+{
+  "name": "jasper-orders-export",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": { "export": "node export_orders.js", "test": "node test_export_orders.js" },
+  "dependencies": { "exceljs": "^4.4.0", "https-proxy-agent": "^7.0.6" }
+}
